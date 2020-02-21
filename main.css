@@ -3,19 +3,18 @@
 }
 
 body{
-background-image: url(bg.png);
-background-repeat: no-repeat;
-background-size: cover;
-
+  /* background-image: url(game.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+  background-image: url(game.jpg)
 }
 
 header{
   height: 100px;
   width: 100%;
-  text-align:center;
+  text-align: center;
   color:white;
-  font-family: cursive;
-  font-size: 30px;
 }
 
 legend {
@@ -27,33 +26,30 @@ legend {
 select {
     font-size: .9rem;
     padding: 2px 5px;
-    color:green;
-}
-section:first-of-type{
-  margin-left: 350px;
+    color:white;
 }
 
 section{
   height: 200px;
   width: 15%;
+  /* border:4px solid green; */
   float: left;
   margin-left: 100px;
   margin-top: 50px;
-  border-radius:50px;
+  /* border-radius:50px; */
   background-color: white;
 }
 
-
-
 #leftBox{
-  margin-left: 300px;
+  margin-left: ;
 }
 
 img{
   height: 200px;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   width: cover;
 }
+
 
 form{
   width:20%;
@@ -69,12 +65,27 @@ form{
   clear: both;
 }
 
-#moneySec{
-  height: 100px;
-  width: 10%;
-  margin-left: 500px;
+
+.slots:first-of-type{
+  margin-left: 20%;
 }
 
-section span{
-  margin-top: 50px;
+#money{
+  height: 100px;
+  width: 10%;
+  padding-top: 100px;
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
 }
+
+#money2{
+  margin-left: 475px;
+  color: white;
+  font-size: 20px;
+}
+
+/* #money2{
+  color: white;
+  font-size: 20px;
+} */
